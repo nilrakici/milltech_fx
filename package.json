@@ -1,0 +1,30 @@
+{
+  "name": "dir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "wdio": "wdio run wdio.conf.js"
+  },
+  "keywords": [
+    "webdriverip",
+    "javascript",
+    "cucumber"
+  ],
+  "author": "nilrakici",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^7.25.4",
+    "@wdio/cucumber-framework": "^7.25.4",
+    "@wdio/local-runner": "^7.25.4",
+    "@wdio/spec-reporter": "^7.25.4",
+    "chromedriver": "^107.0.2",
+    "wdio-chromedriver-service": "^8.0.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^8.7.0",
+    "chai": "^4.3.6",
+    "cucumber": "^6.0.7"
+  }
+}
