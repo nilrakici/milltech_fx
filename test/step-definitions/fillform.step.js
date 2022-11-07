@@ -38,7 +38,7 @@ When(/^I fill and submit the form with the details$/, async () => {
         await expect(practiceFormPage.modalEmail).toHaveText(userDetails.personalDetails[i].email)
         await expect(practiceFormPage.modalMobile).toHaveText(userDetails.personalDetails[i].mobile)
 
-        if (i === 1)
+        if (i ===(arrayLength-1))
             break
         await Page.clickRefresh();
 
